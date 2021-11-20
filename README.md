@@ -14,11 +14,11 @@ just like this one here (https://status.onesignal.com/) but inside our platform.
 
 2. You will request every 1 minute the status of each endpoint ( for the sake of the test only ) but in a real case scenario we will ping it every 10-15 minutes.
 
-3. The design should look very similar to the one provided by onesignal.com. We care about nice UX/UI so it's important that the developer knows how to make nice designs.
+3. The design should look very similar to the one provided by https://status.onesignal.com. We care a lot about nice UX/UI so it's important that the developer knows how to make great frontend designs.
 
-4. each ping will represent a green or red bar. You will save in localStorage each time you request the API to see the status of each endpoint.
+4. each ping will represent a green or red bar. You will save them in the localStorage each time you request the API to see the status of each endpoint.
 
-
+5. Remember that we need to keep track of each ping and when the service is down, we would like to know that it's down.
 
 ## Bonus points:
 
